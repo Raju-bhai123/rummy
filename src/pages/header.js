@@ -10,7 +10,7 @@ function Header() {
   };
 
   return (
-    <div className="bg-gray-800 text-white py-4 px-6">
+    <div className="bg-gray-800 text-white py-4 px-6 ">
       <div className="flex justify-between items-center">
         <div className="text-2xl font-bold">TeenPatti</div>
         <div>
