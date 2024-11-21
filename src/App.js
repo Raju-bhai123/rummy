@@ -1,14 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Header from './pages/header';
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { useEffect } from "react";
 import Frontpage from './pages/frontpage';
-// import { BrowserRouter as Router } from 'react-router-dom';
+import StaticPage from './pages/staticpage';
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Frontpage />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Frontpage />} />
+        </Routes>
+        <Routes>
+          <Route path="/Page" element={<StaticPage />} />
+        </Routes>
+
+      
+      </Router>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
   // State to track the mobile menu visibility
@@ -15,7 +16,8 @@ function Header() {
         <div className="text-2xl font-bold">TeenPatti</div>
         <div>
           <ul className="flex space-x-6 text-lg hidden md:flex">
-            <li>Home</li>
+            <Link to="/">
+            <li>Home</li></Link>
             <li>Games</li>
             <li>App</li>
             <li>News</li>
