@@ -11,11 +11,11 @@ function StaticPage() {
     <div className="min-h-screen bg-gray-100">
       <Header />
       <div className="container mx-auto p-4 md:p-8">
-        <h1 className="text-3xl font-bold text-gray-800 mb-4">
+        <h1 className="lg:text-3xl text-lg font-bold text-gray-800 mb-4">
           {title} – Teen Patti Master – 3Patti Master
         </h1>
         <div className="flex flex-col lg:flex-row sm:flex-col md:flex-col">
-        <div className="bg-white shadow-lg rounded-lg w-full md:w-2/3 overflow-hidden p-5 mr-10">
+        <div className="bg-white shadow-lg rounded-lg w-full md:w-2/3 overflow-hidden lg:p-5 mr-10 p-2">
           <div className="flex flex-col md:flex-row p-6">
             {/* Left side: Image and Title */}
          
@@ -96,12 +96,12 @@ function StaticPage() {
             </span>
           </div>
           <div className="mt-10 mb-5 text-left">
-          <h3 className="text-3xl text-left mb-3 font-bold">What Is {title}  Apk?</h3>
+          <h3 className="lg:text-3xl text-lg text-left mb-3 font-bold">What Is {title}  Apk?</h3>
           <p>3 Patti Master Purana App क्या हैं? जैसे कि इस एप्लीकेशन एक Online Earning Platform हैं। जहां आपको Income करने के लिए काफी सारे गेम ओर कीचर्स से भरपुर दिया जाता हैं। जिंसमे आप लोग अलग – अलग उपयोगकर्ता के साथ ऑनलाइन गेम खेलकर घेर बैठे बैठे पैसे कमा सकते हैं।</p>
           <p className="mt-5">यहां तीन पति मास्टर के कंपनी ने 100% Secure करने के बाद ही Launch किया हैं। ओर तो ओर 100% Legal App हैं, किसके कारण आपका पैसे कभी भी Fraud नही हो सकते हैं। दोस्तों इस एप्लीकेशन बहुत ही साधारण तरीके से बनाया गया है तो हमारी सलाह है कि आप इसे तुरंत Download करें।
 
 </p>
-<h3 className="text-3xl text-left my-3 font-bold">Download {title}</h3>
+<h3 className="lg:text-3xl text-lg text-left my-3 font-bold">Download {title}</h3>
 <a href="https://www.earntp.com/m/0pfw8k" target="_blank" rel="noopener noreferrer">
 <div className="bg-orange-500  flex p-4 text-white text-xl font-bold flex items-center justify-center">
             <svg
@@ -130,7 +130,7 @@ function StaticPage() {
   </ol>
 </div>
 <div className="mt-5">
-<h3 className="text-3xl text-left my-3 font-bold">Create Account In {title}</h3> 
+<h3 className="lg:text-3xl text-lg text-left my-3 font-bold">Create Account In {title}</h3> 
 <p>सभी यूज़र्स को यह प्रश्न जरूर होंगे कि Teen Patti Master Purana App में Account Register कैसे करें? अगर जो आप Account Register करना जानते है तो आपके लिए जानने की जरूर नही हैं। अगर जो आप नही जानते है तो कीची भी प्रकार का टेंसन लेना का जरूरत नही हैं। क्योंकि हम आपकी यहां स्टेप बाय स्टेप सिखाएंगे।</p>
 
 <ol>
@@ -146,7 +146,7 @@ function StaticPage() {
 
           {/* Cash Addition */}
           <div className="mt-10 mb-5 text-left">
-            <h3 className="text-3xl  mb-5 mb-5 font-bold">How To Add Cash In {title}</h3>
+            <h3 className="lg:text-3xl text-lg  mb-5 mb-5 font-bold">How To Add Cash In {title}</h3>
             <p className="mb-4">
               दोस्तों, आपको इस Purana Teen Patti Master में दिए गए उपलब्ध गेम खेलना चाहते है तो एक बार अवश्य Add Money करें। आपको पैसे ऐड करने के लिए ऐड कैश का ऑप्शन दिखेगा, उस पर क्लिक करें। फिर आपको उसमे से पैसे काटने होंगे। जहां आप Google Pay, Phone Pay, Payment ओर UPI के विकल्प मिकते हैं, जिंसमे से कीची एक को सेलेस्ट करके आपके खाते में जमा कर दिया जाएगा। दोस्तों अगर आप पहले बार Payment Add करते है तो आपको 15% से 30% Cash Back मिलता हैं।
             </p>
@@ -161,7 +161,7 @@ function StaticPage() {
 
           {/* Withdraw Money */}
           <div className="mt-10 mb-5 text-left">
-            <h3 className="text-3xl  mb-5 font-bold">How To Withdraw Money In Old {title}</h3>
+            <h3 className="lg:text-3xl text-lg  mb-5 font-bold">How To Withdraw Money In Old {title}</h3>
             <p className="mb-4">
               3 Patti Master में Payment Withdraw करना बहुत ही Simple हैं। जिसके लिए कंपनी ने Home Page पर दिए गए Withdraw Button पर क्लिक करें। फिर दिए गए उचित बॉक्स में वह जितना Amount Transfer करना चाहते है उतनी रकम लिखें। इसके बाद आपको निम्नलिखत बैंक में प्रवेश करना होंगे। Account Details?
             </p>
@@ -176,7 +176,7 @@ function StaticPage() {
 
           {/* Refer and Earn */}
           <div className="mt-10 mb-5 text-left">
-            <h3 className="text-3xl  mb-5 font-bold">How to Refer & Earn Money</h3>
+            <h3 className="lg:text-3xl text-lg  mb-5 font-bold">How to Refer & Earn Money</h3>
             <p className="mb-4">
               अगर आपको कोई पूछे कि Teen Patti Master में बिना रिस्क इनकम कर सकते है? तो जरूर बताएं की बिना जोखिम Unlimited Income कर सकते हैं। जिस प्रोग्राम का नाम है रेफेर एंड एरन हैं। दोस्तों इस प्रोग्राम आपके लिए पैसे कमाने का सबसे अच्छा तरीका हैं, इस फीचर को अगर आप सही तरीके से इस्तेमाल करते है तो गेम खेलने की जरूरत नहीं हैं। आप अपने तीन पति मास्टर की स्वयं लिंक कॉपी करके शेयर करने पर हजारों रुपये कमा सकते हैं।
             </p>
@@ -191,7 +191,7 @@ function StaticPage() {
 
           {/* Daily Rewards */}
           <div className="mt-10 mb-5 text-left">
-            <h3 className="text-3xl  mb-5 font-bold">7 Daily Rewards in Teen Patti Master</h3>
+            <h3 className="lg:text-3xl text-lg  mb-5 font-bold">7 Daily Rewards in Teen Patti Master</h3>
             <p>
               तीन पति मास्टर एप्लीकेशन में आपको 7 Daily Rewards का Features Available हैं। आपको यहां पर मुफ़्त में पूरे 1 साप्ताहिक बोनस मिलते हैं। जहां आप 24 घंटे में एक बार Spin लगा सकते हैं। स्पिन लगाकर आपको अपने क़िस्मत आजमाना होते हैं। और आप इस फीचर को पूरे 7 दिन यूज़ करने के बाद इनकम किए गए पैसे को Transfer कर सकते हैं।
             </p>
@@ -199,7 +199,7 @@ function StaticPage() {
 
           {/* Free Cash */}
           <div className="mt-10 mb-5 text-left">
-            <h3 className="text-3xl  mb-5 font-bold">Free Cash Features In Teen Patti Master</h3>
+            <h3 className="lg:text-3xl text-lg  mb-5 font-bold">Free Cash Features In Teen Patti Master</h3>
             <p>
               दोस्तों आपको Old Master Teen Patti application में Free Cash ऑप्शन की सुविधाएं दिए जाती हैं। जहां आपको हर रेफरल का कमीशन मिलते हैं। फ्री कैश ऑप्शन में रेफरल किया बंदा अगर निकासी करते है तो उसके प्रतिशक ₹200 का मुफ़्त बोनस मिल जाएंगे। और इस रुपये से आप अपने तीन पति मास्टर में दिए Favourite गेम को बिना पेमेंट खेल सकते हैं।
             </p>
@@ -207,7 +207,7 @@ function StaticPage() {
 
           {/* VIP Gift */}
           <div className="mt-10 mb-5 text-left">
-            <h3 className="text-3xl  mb-5 font-bold">What Is VIP Gift Option In Teen Patti Master ?</h3>
+            <h3 className="lg:text-3xl text-lg  mb-5 font-bold">What Is VIP Gift Option In Teen Patti Master ?</h3>
             <p>
               तीन पति मास्टर गेम में आपको VIP Gift का ऑप्शन दिया जाता हैं। आपको इस वीआईपी प्रोग्राम में तीन प्लान दिए जाते हैं। और इस तीनो प्लान में कंपनी के अंतर्गत बिल्कुल निःशुल्क बोनस मिलता हैं। आप इस फीचर को सही तरीके से इस्तेमाल करके अच्छा पैसे कमा सकते हैं।
             </p>
@@ -215,7 +215,7 @@ function StaticPage() {
 
           {/* Scratch Card Features */}
           <div className="mt-10 mb-5 text-left ">
-            <h3 className="text-3xl  mb-5 font-bold">Scratch Card Features</h3>
+            <h3 className="lg:text-3xl text-lg  mb-5 font-bold">Scratch Card Features</h3>
             <p>
               आपको इस एप्लीकेशन के कंपनी ने Scratch Card Option का सुविधाएं दिए जाती हैं। जैसे कि इस प्रोग्राम के माध्यम से इनकम करने के लिए न्यूनतम ₹100 रिचार्ज करना होंगे। Teen Patti Master Purana में दिए गए स्क्रेच कार्ड ऑप्शन में अधिक भी पैसे ऐड कर सकते हैं, जहां आपको 30 कार्ड का प्लान मिलता है। और जितना अधिक जोड़ते है उतने बड़िया बोनस हासिल प्राप्त करेंगे।
             </p>
@@ -223,7 +223,7 @@ function StaticPage() {
 
           {/* FAQs */}
           <div className="mt-10 mb-5 text-left">
-            <h3 className="text-3xl  mb-5 font-bold">Teen Patti Master FAQ’s</h3>
+            <h3 className="lg:text-3xl text-lg  mb-5 font-bold">Teen Patti Master FAQ’s</h3>
             <ul className="list-disc ml-6 text-left">
               <li>
                 <strong>Q.1:</strong> Teen Patti Master Owner Name? <br />
@@ -260,7 +260,7 @@ function StaticPage() {
           </div>
         </div>
         <div className="bg-white shadow-lg rounded-lg w-full md:w-1/4 overflow-hidden p-5">
-        <h3 className="text-3xl text-left my-3 font-bold">Recent Posts</h3>
+        <h3 className="lg:text-3xl text-lg text-left my-3 font-bold">Recent Posts</h3>
         <ul className="text-sm text-left ">
         <a href="https://www.earntp.com/m/0pfw8k" target="_blank" rel="noopener noreferrer">
   <li className="border-b bg-gray-100 p-4 mt-2">Teen Patti Master Point Rummy – Bonus 200₹ – Teen Patti Master Rummy</li>
@@ -269,9 +269,9 @@ function StaticPage() {
   <li className="border-b bg-gray-100 p-4 mt-2">Teen Patti Master Latest Version – Teen Patti Master Latest Version Download – Earn 51RS</li>
   <li className="border-b bg-gray-100 p-4 mt-2">Teen Patti Master Purana – 3Patti Master Download</li></a>
 </ul>
-<h3 className="text-3xl text-left my-3 font-bold">Recent Comments</h3>
+<h3 className="lg:text-3xl text-lg text-left my-3 font-bold">Recent Comments</h3>
 <p>No comments to show.</p>
-<h3 className="text-3xl text-left my-3 font-bold">Archives</h3>
+<h3 className="lg:text-3xl text-lg text-left my-3 font-bold">Archives</h3>
 <ul className="text-sm text-left ">
 
   <li className="border-b bg-gray-100 p-4 mt-2">March 2024</li>
@@ -279,7 +279,7 @@ function StaticPage() {
   </li>
  
 </ul>
-<h3 className="text-3xl text-left my-3 font-bold">Categories</h3>
+<h3 className="lg:text-3xl text-lg text-left my-3 font-bold">Categories</h3>
 <ul className="text-sm text-left ">
 <a href="https://www.earntp.com/m/0pfw8k" target="_blank" rel="noopener noreferrer">
  <li className="border-b bg-gray-100 p-2 mt-2">  Teen Patti App</li>
