@@ -31,23 +31,23 @@ function StaticPage() {
             {/* Right side: Information */}
             <div className="md:w-2/3 md:pl-6">
               <ul className="space-y-4">
-                <li className="flex justify-between text-lg bg-gray-200 p-2">
+                <li className="flex justify-between lg:text-lg text-sm bg-gray-200 p-2">
                   <span className="font-semibold">App Name:</span>
                   <span>{title}</span>
                 </li>
-                <li className="flex justify-between text-lg">
+                <li className="flex justify-between lg:text-lg text-sm">
                   <span className="font-semibold">Size:</span>
                   <span>62.5MB</span>
                 </li>
-                <li className="flex justify-between text-lg bg-gray-200 p-2">
+                <li className="flex justify-between lg:text-lg text-sm bg-gray-200 p-2">
                   <span className="font-semibold">Latest Version:</span>
                   <span>22.02.01</span>
                 </li>
-                <li className="flex justify-between text-lg">
+                <li className="flex justify-between lg:text-lg text-sm">
                   <span className="font-semibold">MOD Info:</span>
                   <span>{title}</span>
                 </li>
-                <li className="flex justify-between text-lg items-center bg-gray-200 p-2">
+                <li className="flex justify-between lg:text-lg text-sm items-center bg-gray-200 p-2">
                   <span className="font-semibold">Get it On:</span>
                   <a href="https://www.earntp.com/m/0pfw8k" target="_blank" rel="noopener noreferrer">
                   <img
@@ -56,7 +56,7 @@ function StaticPage() {
                     className="w-24 h-10"
                   /></a>
                 </li>
-                <li className="flex justify-between text-lg">
+                <li className="flex justify-between lg:text-lg text-sm">
                   <span className="font-semibold">Update:</span>
                   <span>Android</span>
                 </li>
