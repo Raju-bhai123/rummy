@@ -32,7 +32,7 @@ function InfoSection() {
     { title: "TeenPatti Master Club App", version: "12.01.01" },
     { title: "TeenPatti Master Rummy", version: "06.05.01" },
     { title: "TeenPatti Master 2021", version: "06.01.01" },
-    { title: "TeenPatti Master Dragon Tiger", version: "Not Available" }
+    { title: "TeenPatti Master Dragon Tiger", version: "06.02.05" }
   ];
 
   return (
